@@ -1,34 +1,34 @@
 {
-  "name": "lunchspinner",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "format": "npx prettier --write src",
-    "cypress": "cypress open",
-    "cypress:headless": "cypress run",
-  "e2e": "start-server-and-test start http://localhost:3000 cypress",
-  "e2e:headless": "start-server-and-test start http://localhost:3000 cypress:headless"
-  },
-  "dependencies": {
-    "next": "12.1.6",
-    "react": "18.1.0",
-    "react-dom": "18.1.0"
-  },
-  "devDependencies": {
-    "@types/node": "17.0.42",
-    "@types/react": "18.0.12",
-    "@types/react-dom": "18.0.5",
-    "autoprefixer": "^10.4.7",
-    "cypress": "^10.1.0",
-    "eslint": "8.17.0",
-    "eslint-config-next": "12.1.6",
-    "postcss": "^8.4.14",
-    "prettier": "2.7.1",
-    "tailwindcss": "^3.1.3",
-    "typescript": "4.7.3"
-  }
+    "name": "lunchspinner",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "format": "npx prettier --write src",
+        "cypress": "cypress open",
+        "cypress:headless": "cypress run",
+        "e2e": "start-server-and-test start http://localhost:3000 cypress",
+        "e2e:headless": "start-server-and-test start http://localhost:3000 cypress:headless"
+    },
+    "dependencies": {
+        "next": "12.1.6",
+        "react": "18.1.0",
+        "react-dom": "18.1.0"
+    },
+    "devDependencies": {
+        "@types/node": "17.0.42",
+        "@types/react": "18.0.12",
+        "@types/react-dom": "18.0.5",
+        "autoprefixer": "^10.4.7",
+        "cypress": "^10.1.0",
+        "eslint": "8.17.0",
+        "eslint-config-next": "12.1.6",
+        "postcss": "^8.4.14",
+        "prettier": "2.7.1",
+        "tailwindcss": "^3.1.3",
+        "typescript": "4.7.3"
+    }
 }
