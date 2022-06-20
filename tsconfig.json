@@ -14,7 +14,6 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true, 
-    "allowModuleInterop": true,
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules", "**/*.d.ts", "cypress", "dist", "**/*.spec.ts", "**/*.spec.tsx"],
